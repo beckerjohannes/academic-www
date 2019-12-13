@@ -77,6 +77,10 @@ A figure within a [page's folder](https://gohugo.io/content-management/page-bund
 A numbered figure with caption:
 
     {{</* figure src="image.jpg" title="A caption" numbered="true" lightbox="true" */>}}
+    
+Cross references on figures in markdown content. This is similiar to cross references on [headings in hugo](https://gohugo.io/content-management/cross-references/). The anchors are generated the same way.
+
+    [see figure]({{</* relref "#a-caption" */>}}   
 
 A general image:
 
